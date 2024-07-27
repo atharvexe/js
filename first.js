@@ -15,3 +15,13 @@ let isLoggedIn = false
 
 console.log(typeof undefined); //undifined
 console.log(typeof null); //object
+
+//****** Operations *********
+
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter)
